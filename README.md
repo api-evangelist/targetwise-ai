@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-targetwise-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://targetwise.ai/
+TargetWise provides B2B contact data enrichment through a REST API and MCP, delivering work email addresses, business phone numbers, and company information by aggregating over 15 specialist data sources. The platform enables software, automation, and AI agents to enrich leads and CRM records with accurate, normalized contact data, offering waterfall enrichment, company context, and reverse‑email lookup capabilities.
+
+**Areas:** B2B · Data Enrichment · Contact API · MCP · SaaS
+
+## targetwise-ai on APIs.io
+
+Everything profiled for targetwise-ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/targetwise-ai/](https://apis.io/providers/targetwise-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [targetwise-ai Account API](https://apis.io/apis/targetwise-ai/targetwise-ai-account-api/) — Free authenticated account-status checks.
+- [targetwise-ai Autocomplete API](https://apis.io/apis/targetwise-ai/targetwise-ai-autocomplete-api/) — Resolve company form fields.
+- [targetwise-ai Companies API](https://apis.io/apis/targetwise-ai/targetwise-ai-companies-api/) — Bounded company identity search.
+- [targetwise-ai Employees API](https://apis.io/apis/targetwise-ai/targetwise-ai-employees-api/) — Bounded employee search and selective contact details.
+- [targetwise-ai Enrichment API](https://apis.io/apis/targetwise-ai/targetwise-ai-enrichment-api/) — Normalize one selected company or known contact.
+- [targetwise-ai Prospecting API](https://apis.io/apis/targetwise-ai/targetwise-ai-prospecting-api/) — Bounded candidate discovery. Search before enriching.
+- [targetwise-ai Resolution API](https://apis.io/apis/targetwise-ai/targetwise-ai-resolution-api/) — Resolve one specific field or permitted business email.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Targetwise Ai Agentic Access](https://apis.io/agentic-access/targetwise-ai/targetwise-ai-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [AccountStatus](https://apis.io/schemas/targetwise-ai/targetwise-ai-account-status/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Targetwise Ai Context](https://apis.io/jsonld/targetwise-ai/targetwise-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [targetwise-ai API Rules](https://apis.io/rules/targetwise-ai/targetwise-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Targetwise Ai Authentication](https://apis.io/security/targetwise-ai/targetwise-ai-authentication/)
+- [Targetwise Ai Domain Security](https://apis.io/security/targetwise-ai/targetwise-ai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://targetwise.ai/)
+- [Documentation](https://targetwise.ai/developers)
+- [Getting started](https://targetwise.ai/developers/quickstart)
+- [API reference](https://targetwise.ai/developers/api)
+- [Pricing](https://targetwise.ai/pricing)
+- [Sign up](https://targetwise.ai/signup)
+- [Support](https://targetwise.ai/company/contact)
+- [Blog](https://targetwise.ai/blog/)
+- [Trust centre](https://targetwise.ai/trust)
+- [Terms of service](https://targetwise.ai/legal/terms)
+- [Privacy policy](https://targetwise.ai/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 54.4** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.4 |
+| Contract governance | 70.9 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 63.6 |
+| Access clarity | 52.6 |
+
+**Agent readiness 46.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/targetwise-ai/](https://apis.io/providers/targetwise-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for targetwise-ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/targetwise-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
